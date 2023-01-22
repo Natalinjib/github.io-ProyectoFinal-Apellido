@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: black !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.welcome-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.welcome-section__logo-container {
+  width: 300px;
+}
+
+.welcome-section__logo-container > img {
+  width: 100%;
+}
+
+.welcome-section__chazki-description {
+  color: white;
+  max-width: 640px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.welcome-section__chazki-description > h1 {
+  font-weight: bolder;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.welcome-section__chazki-description > h2 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 2rem;
+}
+
+@media (max-width: 540px) {
+  .welcome-section__chazki-description > h1 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  .welcome-section__chazki-description > h2 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.5rem;
+  }
+}
+
+.welcome-section__background-container {
+  position: absolute;
+  top: 1vh;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #051027;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome-section__background-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.1;
+}
+
+.main-swiper {
+  width: 98vw;
+  height: 98vh;
+}
+
+.services-section {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2560' height='1440' preserveAspectRatio='none' viewBox='0 0 2560 1440'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1143%26quot%3b)' fill='none'%3e%3crect width='2560' height='1440' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c1064.163C191.934%2c1021.191%2c300.27%2c828.938%2c453.393%2c705.493C586.975%2c597.801%2c768.527%2c539.576%2c842.657%2c384.829C917.19%2c229.241%2c854.081%2c50.273%2c849.886%2c-122.195C845.038%2c-321.484%2c903.343%2c-527.91%2c816.095%2c-707.151C717.943%2c-908.794%2c552.942%2c-1088.706%2c342.155%2c-1165.274C126.839%2c-1243.487%2c-112.104%2c-1194.54%2c-329.865%2c-1123.417C-543.006%2c-1053.803%2c-760.389%2c-952.851%2c-883.002%2c-765.125C-1000.524%2c-585.194%2c-944.446%2c-352.894%2c-972.316%2c-139.798C-999.741%2c69.897%2c-1113.343%2c277.162%2c-1045.516%2c477.471C-975.67%2c683.745%2c-795.714%2c836.062%2c-605.795%2c942.635C-422.474%2c1045.506%2c-205.133%2c1110.091%2c0%2c1064.163' fill='%230d2843'%3e%3c/path%3e%3cpath d='M2560 2400.575C2757.098 2394.419 2955.353 2415.326 3136.027 2336.316 3336.35 2248.7129999999997 3520.2129999999997 2117.103 3634.478 1930.6979999999999 3756.63 1731.426 3855.7 1488.049 3794.241 1262.5430000000001 3733.815 1040.826 3507.714 914.573 3321.026 780.567 3169.377 671.712 3001.958 592.778 2817.889 561.709 2648.902 533.185 2480.665 561.529 2316.591 611.026 2153.552 660.211 2011.702 745.009 1874.7530000000002 846.23 1703.078 973.1179999999999 1494.14 1076.534 1417.305 1275.705 1335.023 1488.996 1348.762 1741.953 1450.163 1946.846 1550.4859999999999 2149.559 1751.013 2287.447 1960.373 2373.038 2149.408 2450.32 2355.878 2406.951 2560 2400.575' fill='%230f2c4b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1143'%3e%3crect width='2560' height='1440' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.services-section__title {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: rgb(102, 17, 192);
+}
+
+.services-section__swiper {
+  margin-top: 30px;
+  width: 90%;
+  max-width: 1280px;
+}
+
+.services-section__swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px 20px;
+}
+
+.services-section__swiper-slide > div {
+  width: 200px;
+}
+
+.services-section__swiper-slide > div > img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.services-section__swiper-slide > h3 {
+  font-weight: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.services-section__swiper-slide > h4 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.25rem;
+}
+
+.services-section__performance-main-stat {
+  font-weight: bold;
+  color: white;
+  font-size: 3rem;
+}
+
+.green-text {
+  color: green;
+}
+
+.services-section__performance_description-stat {
+  color: white;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.services-section__performance-stat-container {
+  text-align: center;
+  width: 250px;
+}
+
+.services-section__performance {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.services-section__container {
+  width: 100%;
+  height: calc(99vh - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-section {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets//wave-haikei.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.price-section-centered-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1366px;
+}
+
+.price-section__exchanges {
+  width: 600px;
+  height: 720px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.043);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #17406b81;
+}
+
+.currency-container {
+  width: 500px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.currency-image-container {
+  width: 80px;
+  height: 80px;
+}
+
+.currency-image-container > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.currency-text {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.price-section__title {
+  font-weight: bolder;
+  font-size: 4rem;
+  color: #39d32f;
+  margin-bottom: 50px;
+}
+
+.form-select {
+  font-size: 1.5rem !important;
+  background-color: rgba(255, 0, 0, 0) !important;
+  color: white !important;
+  font-weight: 200;
+}
+
+.form-label {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+}
+
+#service-number-input {
+  background-color: rgba(255, 0, 0, 0) !important;
+  font-size: 1.5rem !important;
+  background-color: rgba(255, 0, 0, 0) !important;
+  color: white !important;
+  font-weight: bold;
+}
