@@ -1,0 +1,38 @@
+[
+  {
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5beb6423aa49a118ca9e258b/deed817b-bdf0-4150-a4f7-386299e0fa5e/icon-express-22.png",
+    "name": "EXPRESS",
+    "description": "Envíos más rápidos de 30 min, 60 min, 90 min o 180 min",
+    "pricePerShipment": 5.55
+  },
+  {
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5beb6423aa49a118ca9e258b/126e4c27-16bb-4435-864e-82db7ba35aa2/icon-sameday-22.png",
+    "name": "SAME DAY",
+    "description": "Envíos el mismo día entregados entre la 1:00 pm y las 7:00 pm",
+    "pricePerShipment": 2.99
+  },
+  {
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5beb6423aa49a118ca9e258b/4aa9bcbb-0fce-4f37-9eae-0e054082739b/icon-nextday-22.png",
+    "name": "NEXT DAY",
+    "description": "Programa tu envío para ser entregado al día siguiente de 9:00 am a 7:00 pm",
+    "pricePerShipment": 2.0
+  },
+  {
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5beb6423aa49a118ca9e258b/251f58eb-198c-4f84-a658-d6669782f51c/icon-asignado-22.png",
+    "name": "ASIGNADO",
+    "description": "Chazki dedicados para tu operación",
+    "pricePerShipment": 10.32
+  },
+  {
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5beb6423aa49a118ca9e258b/9fabfabf-760b-4793-bcc8-840544e8b1da/icon-cargo22.png",
+    "name": "CARGO",
+    "description": "Envíos a todo el país inter-ciudades (2023)",
+    "pricePerShipment": 10.99
+  },
+  {
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5beb6423aa49a118ca9e258b/cd3a6465-ed34-46a8-9bc3-4973c2998bcf/icon-almacenamiento-22.png",
+    "name": "ALMACENAMIENTO",
+    "description": "Almacenamos tu mercancía para una operación más flexible",
+    "pricePerShipment": 6.45
+  }
+]
